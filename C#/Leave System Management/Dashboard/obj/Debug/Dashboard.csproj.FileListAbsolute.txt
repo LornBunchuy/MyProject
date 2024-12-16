@@ -1,0 +1,54 @@
+C:\Users\M\source\repos\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\M\source\repos\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\M\source\repos\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.Admin.resources
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\M\source\repos\Dashboard\Dashboard\obj\Debug\Dashboard.Request.resources
+C:\Users\M\source\repos\C\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\M\source\repos\C\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\M\source\repos\C\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.Admin.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.CheckForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.LeaveHistoryForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.MyapprovalForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.NewRequestForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.Request.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.SystemLogForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.AboutForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.LoginForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.RegisterForm.resources
+C:\Users\M\source\repos\C\Dashboard\obj\Debug\Dashboard.UserManagementForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\bin\Debug\Dashboard.exe.config
+D:\Year 2, Semester 1\repos\C\Dashboard\bin\Debug\Dashboard.exe
+D:\Year 2, Semester 1\repos\C\Dashboard\bin\Debug\Dashboard.pdb
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.AboutForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.Admin.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.CheckForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.Form1.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.LeaveHistoryForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.LoginForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.MyapprovalForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.NewRequestForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.RegisterForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.Request.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.SystemLogForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.UserManagementForm.resources
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.exe
+D:\Year 2, Semester 1\repos\C\Dashboard\obj\Debug\Dashboard.pdb
