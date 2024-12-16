@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="Juery.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serifs;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        height: 100vh;
+      }
+      .cn {
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .cn1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .con1 {
+        height: 93px;
+        width: 400px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+      }
+      .con2 {
+        height: 55px;
+        width: 400px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+      }
+      ul {
+        border-radius: 5px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+      }
+      ul li {
+        list-style: none;
+        height: 30px;
+        margin: 7px 0;
+        padding: 5px;
+        position: relative;
+      }
+      ul .edit,
+      .delete,
+      .cancel {
+        position: absolute;
+        cursor: pointer;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      ul .edit {
+        right: 40px;
+      }
+      ul .delete {
+        right: 15px;
+      }
+      ul .cancel {
+        right: 25px;
+        /* bottom: 10px; */
+      }
+      .todo {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="cn">
+          <div class="con1">
+            <label for="" id="todo">New Tobo:</label>
+            <div class="d-flex">
+              <div class="" style="width: 100%">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="NewTodo"
+                  id="input"
+                />
+                <div
+                  class="invalid-feedback d-block"
+                  style="font-size: small"
+                  id="add"
+                ></div>
+              </div>
+
+              <div class="">
+                <button type="button" class="btn btn-danger ms-2" id="btnadd">
+                  Add
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cn1">
+          <div class="con2">
+            <div class="d-flex">
+              <label
+                for=""
+                class="me-2 d-flex"
+                style="justify-content: center; align-items: center"
+                >Edit:</label
+              >
+              <input
+                class="me-2 form-control"
+                type="text"
+                name=""
+                id="txtedit"
+              />
+              <button type="button" class="btn btn-outline-danger" id="btnsave">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="cn1">
+          <ul id="ul" style="width: 400px"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
