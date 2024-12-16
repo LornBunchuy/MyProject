@@ -1,0 +1,53 @@
+.logo{
+    font-weight: 600;
+    font-size: 43px;
+    font-family: initial;
+    text-align: center;
+}
+i{
+    margin: 0 7px;
+}
+.bg{
+    background: linear-gradient(to right, rgb(253, 238, 240), rgb(255, 204, 213));
+    position: relative;
+    overflow: hidden;
+}
+.cir{
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+.cirl{
+    position: absolute;
+    top: -40px;
+    right: -80px;
+}
+/* .bg{
+    background-color: pink;
+    height: 300px;
+} */
+.ic{
+   font-size: 50px;
+
+}
+
+.a{
+    font-size: 20px;  
+    font-family: initial;  
+}
+.pg{
+    background: #eeeeee;
+}
+.h1{
+    text-align: center;
+    font-family: initial;
+}
+.p{
+    text-align: center;
+}
+.line{
+    line-height: 70px;
+    font-size: 50px;
+    font-family: initial;
+    font-weight: 600;
+}
