@@ -1,0 +1,15 @@
+{% extends "shop/master.html" %} {% load html_formatters %} {% block main %}
+<div class="container">
+  <div class="details">
+    <div class="detail_image">
+      <img class="productdetailsimage" src="{% productimage image %}" alt="" />
+    </div>
+    <div class="detail_info">
+      <h1 class="mb-3">{{details }}</h1>
+      <p>{{ description }}</p>
+      <p>Price: {{ price|currency_euro }}</p>
+      <a href="{% url 'contact' %}" class="detail_btn">Order Now</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
