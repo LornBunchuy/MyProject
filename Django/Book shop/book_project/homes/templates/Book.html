@@ -1,0 +1,166 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Template</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      header {
+        background-color: #3b3b3b;
+        text-align: center;
+      }
+
+      header h1 {
+        display: flex;
+        align-items: center;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      /*Gallary*/
+
+      .gallary {
+        width: 100%;
+        padding: 70px 0;
+      }
+      .gallary h1 {
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .gallary h1 span {
+        margin-left: 15px;
+        color: #fac031;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .gallary h1 span::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #fac031;
+        display: block;
+        position: relative;
+        bottom: 10px;
+      }
+      .gallary .gallary_image_box {
+        width: 88%;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+      }
+      .gallary .gallary_image_box .gallary_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+      }
+      .gallary .gallary_image_box .gallary_image img {
+        width: 100%;
+        transition: 0.3s;
+      }
+      .gallary .gallary_image_box .gallary_image:hover img {
+        opacity: 0.4;
+      }
+      .gallary .gallary_image_box .gallary_image h3 {
+        position: absolute;
+        font-size: 35px;
+        margin-bottom: 130px;
+        color: #fac031;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 5;
+        opacity: 0;
+        transition: 0.3s;
+      }
+      .gallary .gallary_image_box .gallary_image:hover h3 {
+        opacity: 1;
+      }
+      .gallary .gallary_image_box .gallary_image p {
+        position: absolute;
+        width: 400px;
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        line-height: 22px;
+        opacity: 0;
+        z-index: 5;
+        transition: 0.3s;
+      }
+      .gallary .gallary_image_box .gallary_image:hover p {
+        opacity: 1;
+      }
+      .gallary .gallary_image_box .gallary_image .gallary_btn {
+        position: absolute;
+        margin-top: 200px;
+        color: #000;
+        background: #fac031;
+        padding: 7px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        opacity: 0;
+        transform: translateY(45px);
+        z-index: 5;
+        transition: 0.3s;
+      }
+      .gallary .gallary_image_box .gallary_image:hover .gallary_btn {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .h1,
+      .p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Book Store</h1>
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'book' %}">Book</a></li>
+          <li><a href="{% url 'details' %}">Details</a></li>
+          <li><a href="{% url 'about' %}">About Us</a></li>
+          <li><a href="{% url 'contact' %}">Contact Us</a></li>
+          <li><a href="{% url 'login' %}">Login</a></li>
+          <li><a href="{% url 'logout' %}">LogOut</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="h1">Welcome to the Book</h1>
+    <p class="p">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, alias?
+      Voluptatibus ipsam rem eveniet magni nisi adipisci nobis nam nihil!
+    </p>
+  </body>
+</html>
