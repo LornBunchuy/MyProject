@@ -1,0 +1,24 @@
+{% extends "shop/master.html" %} {% load html_formatters %} {% block main %}
+<div class="container">
+  <div id="productgrid" class="mt-5 row">
+    {%for product in products %}
+    <div class="product_card">
+      <!-- <img
+      src="https://raw.githubusercontent.com/pythonforeveryonetraining/gennaroshop/main/products/b-water.png"
+      alt="Product Image"
+    /> -->
+      <div class="product_image">
+        <img src="{% productimage product.image %}" alt="Product Image" />
+      </div>
+      <div class="product_info">
+        <a href="{% url 'products' product.id %}" class="mt-5"
+          >{{ product.name }}</a
+        >
+        <p class="mt-2">{{product.price|currency_euro }}</p>
+        <a href="{% url 'contact' %}" class="product_btn">Order Now</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
